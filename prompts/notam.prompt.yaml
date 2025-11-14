@@ -25,7 +25,7 @@ inputs:
     type: array
     required: true
     description: "List of NOTAMs from designated database"
-
+ 
 outputs:
   format: json
   schema:
@@ -120,3 +120,4 @@ content: |
 
   The NOTAMs for this flight are as follows:
   {{ $json.notams.toJsonString() }}
+
