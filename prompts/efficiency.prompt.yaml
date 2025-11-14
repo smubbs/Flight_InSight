@@ -16,7 +16,7 @@ context:
     - "Analyze the flight efficiency based on the given inputs"
     - "Provide a detailed analysis of the flight efficiency"
     - "Ensure the analysis is based on the given inputs"
-
+ 
 inputs:
   - name: flight_number
     type: string
