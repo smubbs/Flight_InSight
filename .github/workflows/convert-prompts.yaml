@@ -22,7 +22,7 @@ jobs:
             if [ -f "$file" ]; then
               json_file="${file%.*}.json"
               echo "Converting $file → $json_file"
-              yq '.your_filter' input.yaml > output.json
+              yq -o=json "$file" > "$json_file"
             fi
           done
 
