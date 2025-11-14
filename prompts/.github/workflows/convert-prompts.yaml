@@ -3,8 +3,8 @@ name: Convert Prompts to JSON
 on:
   push:
     paths:
-      - "prompts/**/*.yaml"
-      - "prompts/**/*.yml"
+      - "prompts/*.yaml"
+      - "prompts/*.yml"
 
 jobs:
   convert:
