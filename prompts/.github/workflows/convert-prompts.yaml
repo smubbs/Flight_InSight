@@ -1,0 +1,35 @@
+name: Convert Prompts to JSON
+
+on:
+  push:
+    paths:
+      - "prompts/**/*.yaml"
+      - "prompts/**/*.yml"
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install yq
+        run: sudo apt-get install -y yq
+
+      - name: Convert YAML prompts to JSON
+        run: |
+          for file in prompts/**/*.yaml prompts/**/*.yml; do
+            if [ -f "$file" ]; then
+              json_file="${file%.*}.json"
+              echo "Converting $file → $json_file"
+              yq -o=json "$file" > "$json_file"
+            fi
+          done
+
+      - name: Commit converted JSON files
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add prompts/**/*.json
+          git commit -m "Auto-convert YAML prompts to JSON"
+          git push
