@@ -18,7 +18,7 @@ jobs:
 
       - name: Convert YAML prompts to JSON
         run: |
-          for file in prompts/**/*.yaml prompts/**/*.yml; do
+          for file in prompts/*.prompt.yaml prompts/*.prompt.yml; do
             if [ -f "$file" ]; then
               json_file="${file%.*}.json"
               echo "Converting $file → $json_file"
