@@ -1,4 +1,5 @@
 name: Convert Prompts to JSON
+permissions: write-all
 
 on:
   push:
