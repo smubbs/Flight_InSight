@@ -1,24 +1,44 @@
 {
-    "flight_efficiency_summary":
-    {
-        "flight_number": "CX840",
-        "aircraft": "Airbus A350-900",
-        "route": "VHHH-KJFK",
-        "period_days": 120,
-        "summary":
-        {
-            "average_block_time_hours": 15.5,
-            "min_block_time_hours": 15.2,
-            "max_block_time_hours": 15.8,
-            "average_fuel_burn_tonnes": 107.2,
-            "min_fuel_burn_tonnes": 105.0,
-            "max_fuel_burn_tonnes": 110.0,
-            "average_payload_tonnes": 35.5,
-            "min_payload_tonnes": 34.0,
-            "max_payload_tonnes": 37.0,
-            "average_efficiency_ratio": 0.33,
-            "best_efficiency_day": 87,
-            "worst_efficiency_day": 42
-        }
-    }
+  "flight_efficiency_summary": {
+    "flight_number": "CX840",
+    "aircraft": "Airbus A350-900",
+    "route": "VHHH-KJFK",
+    "period_days": 120,
+    "summary": {
+      "average_block_time_hours": 15.5,
+      "min_block_time_hours": 15.2,
+      "max_block_time_hours": 15.8,
+      "average_fuel_burn_tonnes": 107.2,
+      "min_fuel_burn_tonnes": 105.0,
+      "max_fuel_burn_tonnes": 110.0,
+      "average_payload_tonnes": 35.5,
+      "min_payload_tonnes": 34.0,
+      "max_payload_tonnes": 37.0,
+      "average_efficiency_ratio": 0.33,
+      "best_efficiency_day": 87,
+      "worst_efficiency_day": 42
+    },
+    "fir_shortcuts": [
+      {
+        "fir": "Fukuoka FIR (Japan)",
+        "shortcut_type": "Direct routing across East Asia exit points",
+        "impact": "Saves ~0.1 hr, ~0.5 t fuel"
+      },
+      {
+        "fir": "Anchorage FIR (NOPAC/Polar)",
+        "shortcut_type": "Conditional directs bypassing published PACOTS tracks",
+        "impact": "Saves ~0.2 hr, ~0.8 t fuel"
+      },
+      {
+        "fir": "Gander Oceanic FIR (North Atlantic)",
+        "shortcut_type": "Random routing outside NAT tracks when traffic permits",
+        "impact": "Saves ~0.15 hr, ~0.6 t fuel"
+      },
+      {
+        "fir": "New York Oceanic FIR",
+        "shortcut_type": "Direct entry to JFK STARs bypassing congested fixes",
+        "impact": "Saves ~0.05 hr, ~0.2 t fuel"
+      }
+    ]
+  }
 }
