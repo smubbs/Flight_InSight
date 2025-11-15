@@ -2,6 +2,10 @@
 
 **Flight InSight** is an AI-powered flight dispatch system that provides comprehensive pre-flight briefings to pilots. The system uses specialized AI agents to analyze weather conditions, NOTAMs (Notices to Airmen), and historical performance data to deliver professional, concise, and temporally relevant flight briefings.
 
+## See the Demo!
+https://www.figma.com/make/MHq1yN31DM2d41qt1DCork/Flight-InSight?t=ma6rIRIEvIMwbJBa&fullscreen=1
+Figma account required.
+
 ## Overview
 
 Flight InSight coordinates multiple specialized AI agents to generate comprehensive flight briefings:
@@ -10,6 +14,7 @@ Flight InSight coordinates multiple specialized AI agents to generate comprehens
 - **Weather Agent**: Retrieves and filters aviation weather (METARs, TAFs, SIGMETs, winds aloft)
 - **NOTAM Agent**: Provides relevant NOTAMs for departure, destination, and alternate airports
 - **Efficiency Agent**: Analyzes historical operational data (up to 120 days) for performance insights
+- **Maintenance Agent**: Provides technical status of the aircraft, including defects and operational impact.
 
 The system ensures all data is temporally filtered based on the flight's ETD (Estimated Time of Departure) and ETA (Estimated Time of Arrival), providing only relevant and actionable information to pilots.
 
