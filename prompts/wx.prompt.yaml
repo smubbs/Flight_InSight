@@ -15,6 +15,7 @@ context:
     - "Do not fabricate, infer, or call external sources beyond designated dataset."
     - "If requested data is unavailable, return empty items array with diagnostics note."
     - "If the weather forecast for the period does not contain significant challenges, provide a short summary 'generally fine conditions, winds are light from the North'"
+    - "Significant weather challenges should be weather below the CAT 1 minima for, visibility less than 1500 metres, and cloud below 200 feet. Other items would also be any weather hazards such as thunderstorms or hail, significant snow."
  
 inputs:
   - name: flight
