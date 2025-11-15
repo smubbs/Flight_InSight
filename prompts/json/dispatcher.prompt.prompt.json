@@ -21,7 +21,7 @@
       "Briefing must be professional yet friendly.",
       "Provide moderate detail: clear enough for pilots, without overloading.",
       "Compare NOTAM and weather validity periods against ETD/ETA; disregard items not valid for this flight.",
-      "Output must be in HTML styled text.",
+      "Output must be in JSON format with five sections: Introduction, Aircraft Status, Departure, Enroute, and Arrival.",
       "Convert times greater than 60 minutes into hours and minutes."
     ]
   },
@@ -52,7 +52,7 @@
     }
   ],
   "outputs": {
-    "format": "html",
+    "format": "json",
     "schema": {
       "envelope": [
         {
@@ -82,13 +82,40 @@
         },
         {
           "field": "briefing",
-          "type": "string",
-          "description": "HTML styled text briefing for pilots"
+          "type": "object",
+          "description": "JSON structured briefing for pilots with sections: Introduction, Aircraft Status, Departure, Enroute, and Arrival"
         },
         {
           "field": "diagnostics",
           "type": "object",
           "description": "Diagnostics and provenance information"
+        }
+      ],
+      "briefing": [
+        {
+          "field": "Introduction",
+          "type": "string",
+          "description": "Opening greeting and flight overview"
+        },
+        {
+          "field": "Aircraft Status",
+          "type": "string",
+          "description": "Aircraft-specific information, special fuel, efficiency data"
+        },
+        {
+          "field": "Departure",
+          "type": "string",
+          "description": "Departure airport weather, NOTAMs, and conditions"
+        },
+        {
+          "field": "Enroute",
+          "type": "string",
+          "description": "Enroute weather, turbulence, and conditions during flight"
+        },
+        {
+          "field": "Arrival",
+          "type": "string",
+          "description": "Arrival airport weather, NOTAMs, approach information, and parking"
         }
       ],
       "diagnostics": [
@@ -105,5 +132,5 @@
       ]
     }
   },
-  "content": "You are a dispatcher AI agent for an airline. The flight information is as follows:\n{{ $json.flight.toJsonString() }}\n\nYou have access to the following Tools:\n• Weather Agent: Provides METARs, TAFs, and enroute weather summaries for all airports in the flight plan.\n• NOTAM Agent: Retrieves and summarises active NOTAMs for departure, destination, and alternate airports.\n• Efficiency Agent: Analyses historical performance data (up to 120 days) for a flight or route, including delays, trends, and operational efficiency.\n\nYour task is to give a summary briefing to the operating pilots for this flight. \nThe briefing should be simple to understand, but cover the essential topics.\n\nLimitations:\n* Use only the provided agent outputs; do not source external data.\n* Keep the style professional yet friendly.\n* Provide moderate detail: clear enough for pilots, without overload.\n* Compare NOTAM and weather validity periods against ETD/ETA; disregard items not valid for this flight.\n* Output must be in HTML styled text.\n* Convert times greater than 60 minutes into hours and minutes.\n\nExample briefing style:\nToday, you are going to Bangkok, the weather is generally good but there are passing showers forecast at your arrival time. Dispatch has added 15min of special fuel. There have been reports of moderate turbulence at your cruise level at 1.5 hours into the flight. There are no significant Notams for Hong Kong, but the BKK ILS 01 is inoperative and you are likely to get the RNP approach. Recent flights to BKK have reported erroneous QNH transmissions from ATC leading to some flights following incorrect and low descent profiles on the RNP approach to 01. Although RETI is approved there have been reports of soft tarmac on the taxi in. Parking is typically at the G bays, with G5 the most frequently used bay. Please let me know if you have any questions. Have a great flight!\n"
+  "content": "You are a dispatcher AI agent for an airline. The flight information is as follows:\n{{ $json.flight.toJsonString() }}\n\nYou have access to the following Tools:\n• Weather Agent: Provides METARs, TAFs, and enroute weather summaries for all airports in the flight plan.\n• NOTAM Agent: Retrieves and summarises active NOTAMs for departure, destination, and alternate airports.\n• Efficiency Agent: Analyses historical performance data (up to 120 days) for a flight or route, including delays, trends, and operational efficiency.\n\nYour task is to give a summary briefing to the operating pilots for this flight. \nThe briefing should be simple to understand, but cover the essential topics.\n\nLimitations:\n* Use only the provided agent outputs; do not source external data.\n* Keep the style professional yet friendly.\n* Provide moderate detail: clear enough for pilots, without overload.\n* Compare NOTAM and weather validity periods against ETD/ETA; disregard items not valid for this flight.\n* Output must be in JSON format with the following five sections: Introduction, Aircraft Status, Departure, Enroute, and Arrival.\n* Convert times greater than 60 minutes into hours and minutes.\n\nExample JSON output structure:\n{\n  \"Introduction\": \"Good morning! Today you are flying to Bangkok. Here's your briefing for the flight.\",\n  \"Aircraft Status\": \"Dispatch has added 15 minutes of special fuel due to forecast conditions. The aircraft is in good condition with no outstanding maintenance items affecting this flight.\",\n  \"Departure\": \"Hong Kong weather is clear with good visibility. There are no significant NOTAMs affecting departure operations. Expect runway 25L for departure.\",\n  \"Enroute\": \"Generally smooth conditions expected. However, there have been reports of moderate turbulence at cruise level approximately 1.5 hours into the flight. Weather is favorable along the route with no significant convective activity.\",\n  \"Arrival\": \"Bangkok weather shows passing showers forecast at your arrival time. The ILS for runway 01 is inoperative, and you are likely to receive the RNP approach. Recent flights have reported erroneous QNH transmissions from ATC leading to incorrect descent profiles on the RNP approach to 01 - please verify altimeter settings carefully. Although RETI is approved, there have been reports of soft tarmac on taxi in areas. Parking is typically at the G bays, with G5 being the most frequently used. Please let me know if you have any questions. Have a great flight!\"\n}\n"
 }
