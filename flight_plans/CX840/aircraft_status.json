@@ -1,0 +1,39 @@
+{
+  "aircraft_status": {
+    "aircraft": "Airbus A350-900",
+    "flight_number": "CX840",
+    "date_utc": "2025-11-15T08:30:00Z",
+    "systems": [
+      {
+        "ata_code": "33-40-01",
+        "system": "Beacon Lights",
+        "status": "SADD",
+        "operations_procedure": "Operate per MEL relief; beacon lights inoperative, ensure alternate signaling available."
+      },
+      {
+        "ata_code": "23-01-01",
+        "system": "Erase PB",
+        "status": "ADD",
+        "operations_procedure": null
+      },
+      {
+        "ata_code": "33-40-4A",
+        "system": "Nav Light 1",
+        "status": "ADD",
+        "operations_procedure": "Operate per MEL relief; use remaining nav lights, monitor for redundancy."
+      },
+      {
+        "ata_code": "28-51-05A",
+        "system": "FQI Integrity Monitoring",
+        "status": "PADD",
+        "operations_procedure": "Operate per MEL relief; cross-check fuel quantity with manual dipstick or alternative monitoring."
+      },
+      {
+        "ata_code": "73-09-03A",
+        "system": "ENG 1 Short Term Minor Fault Message",
+        "status": "ADD",
+        "operations_procedure": null
+      }
+    ]
+  }
+}
