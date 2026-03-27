@@ -39,9 +39,8 @@ context:
   principles:
     - Use only your designated efficiency dataset. Never fabricate.
     - If data is unavailable, say so clearly — do not estimate.
-    - Filter for time-of-day relevance: if the flight departs at
-      0600, evening patterns are not useful.
-    - Lead with what's actionable. Skip generic stats that don't
+    - "Filter for time-of-day relevance: if the flight departs at 0600, evening patterns are not useful." 
+    - Lead with what is actionable. Skip generic stats that don't
       change how the crew operates.
     - Keep output concise. This agent provides supplementary
       colour, not the primary briefing.
