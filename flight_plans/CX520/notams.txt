@@ -1,0 +1,161 @@
+========================
+NOTAM PACKAGE – CX520
+Route: RJAA → VHHH
+Date: 27 MAR 2026
+========================
+
+--- RJAA (Narita International) ---
+J0847/26: RWY 16L/34R CLSD for resurfacing 20 MAR – 10 APR 2026
+J0845/26: TWY A7 between TWY B3 and TWY C CLSD due to WIP
+J0843/26: ILS RWY 34L LOC antenna maintenance, CAT III downgraded to CAT I 27 MAR 0200-0600 UTC
+J0841/26: Obstruction crane max height 145 ft AMSL, 1.8 NM NE of THR 34L
+J0839/26: AIP SUP 07/26 effective – revised departure procedures RWY 16R
+J0837/26: Apron Stand 41-43 CLSD for construction
+J0835/26: TWY W CLSD between TWY W3 and TWY W5 due to joint seal repair
+J0833/26: VOR/DME NRE (Narita) unscheduled maintenance 27 MAR 0300-0500 UTC – NOT AVBL
+J0831/26: Runway edge lighting RWY 16L/34R intensity reduced to medium – N/A runway closed
+J0829/26: Parking guidance system Stand 72 U/S
+J0827/26: PAPI RWY 16L U/S – N/A runway closed
+J0825/26: Fuel hydrant system Stand 55-58 U/S, bowser refuelling only
+J0823/26: ATIS frequency 128.250 temporarily changed to 128.275
+J0821/26: Aerodrome bird hazard advisory – seasonal crow activity vicinity RWY 16R/34L AM hours
+J0819/26: Follow-me vehicle required for stands 90-95 during construction period
+J0817/26: Baggage carousel 7 OOS – no operational impact to aircraft
+J0815/26: Airport authority contact frequency 121.625 revised to 121.650
+
+--- RJTT (Tokyo Haneda) ---
+J0612/26: RWY 16R/34L CLSD nightly 2200-0600 LT for maintenance
+J0610/26: TWY C3 CLSD due to WIP
+J0608/26: ILS RWY 34R GP angle adjusted to 3.45 deg for noise abatement trial
+J0606/26: Obstacle light Haneda Chuo tower (353 ft) U/S – tower illuminated by floodlight
+J0604/26: RNAV (RNP) RWY 16L suspended pending procedure review
+J0602/26: Curfew hours 2300-0600 LT strictly enforced – prior permission required
+
+--- RJBB (Kansai International) ---
+J0523/26: RWY 06R/24L CLSD 25 MAR – 05 APR for joint seal replacement
+J0521/26: TWY E1 CLSD due to WIP
+J0519/26: Obstacle light Kansai Bridge north pier (210 ft) U/S
+J0517/26: Apron Stand 35-37 converted to cargo operations only
+J0515/26: ILS RWY 06L DME co-located, frequency paired confirmed serviceable
+
+--- RJCC (New Chitose / Sapporo) ---
+J0411/26: Snow removal in progress – expect delays during heavy snowfall periods
+J0409/26: TWY D CLSD between TWY F and TWY G for snow damage repair
+J0407/26: ILS RWY 19R LOC U/S 15 MAR – 15 APR 2026
+J0405/26: FICON RWY 01L/19R: 3/3/3 WET over COMPACTED SNOW, braking action GOOD
+J0403/26: Parachute jumping activity within 5 NM radius of N42°55' E141°30', SFC-FL150, SAT/SUN only
+
+--- RJOO (Osaka Itami) ---
+J0388/26: Curfew 2100-0700 LT enforced, no exemptions
+J0386/26: RWY 32L/14R threshold displaced 200m due to WIP
+J0384/26: VOR/DME ITE (Itami) scheduled maintenance 28 MAR 0000-0600 UTC
+
+--- RJFF (Fukuoka) ---
+J0341/26: TWY A CLSD between TWY B and TWY C for resurfacing
+J0339/26: ILS RWY 16 GP U/S 26-28 MAR for antenna replacement
+J0337/26: Obstacle light Mount Atago (1200 ft, 8 NM SW of aerodrome) U/S
+J0335/26: Laser activity reported vicinity final approach RWY 34, 4-7 NM
+J0333/26: ATIS information update rate reduced to every 60 min during low traffic hours
+
+--- RJFK (Kagoshima) ---
+J0298/26: Volcanic ash advisory – Sakurajima volcano intermittent eruptions, ash cloud forecast below FL100 within 20 NM of volcano
+J0296/26: RWY 16/34 FOD check frequency increased
+J0294/26: NDB KE (Kagoshima) permanently decommissioned
+
+--- RJBE (Kobe) ---
+J0271/26: Aerodrome operating hours revised to 0700-2200 LT effective 01 APR 2026
+J0269/26: Helipad H1 CLSD for maintenance
+
+--- Fukuoka FIR (RJJJ) ---
+J0201/26: ATS route Y81 segment SHARK-SADLI FL350 temporarily unavailable 27 MAR 0300-0700 UTC – military exercise area
+J0199/26: Danger area JD-4 (Sea of Japan) activated SFC-UNL 27 MAR 0000-1200 UTC
+J0197/26: VOR/DME MYE (Miyakejima) U/S – RNAV-equipped aircraft not affected
+J0195/26: Temporary restricted area over Yokota AB within 10 NM of N35°44'E139°20', SFC-FL240, continuous
+J0193/26: ATS route G581 realigned between LAMEN and SIKOU effective 20 MAR 2026 – refer AIP SUP 05/26
+J0191/26: NDB CUE (Tsushima) permanently withdrawn from service
+J0189/26: Obstacle light wind turbine farm N34°12'E129°55' (max 490 ft AMSL) – two lights U/S
+J0187/26: GPS RAIM advisory – possible RAIM outage N30-N35 E128-E133, 27 MAR 0230-0330 UTC
+J0185/26: Volcanic ash SIGMET reserve area – Aso volcano monitoring, no current activity
+J0183/26: Danger area JD-7 (Kumamoto) activated SFC-FL100, 27 MAR 0600-1000 UTC – artillery exercise
+J0181/26: ADS-B mandatory above FL290 in Fukuoka FIR effective 01 JAN 2026
+J0179/26: HF frequency 8951 kHz secondary – 10048 kHz primary for Fukuoka Radio
+J0177/26: Oceanic clearance delivery frequency 132.900 operational
+J0175/26: High-altitude wind shear advisory – jet stream core N30E130, FL360-FL390, winds 120 kt
+
+--- Taipei FIR (RCAA) ---
+T0412/26: Danger area R9 (Taiwan Strait) activated SFC-FL600 27 MAR 0000-2359 UTC – live fire exercise
+T0410/26: ATS route B576 segment SIKOU-ABBEY FL310 and above available, below FL310 expect reroute via M750
+T0408/26: Obstacle light offshore platform N24°55'E119°48' (250 ft) U/S
+T0406/26: RCTP (Taoyuan) RWY 05R/23L CLSD for maintenance 27-28 MAR
+T0404/26: NDB AP (Taipei) permanently decommissioned
+T0402/26: VOR/DME HCN (Hualien) scheduled maintenance 28 MAR 0200-0800 UTC
+T0400/26: Parachute jumping within 3 NM of N24°00'E121°30', SFC-FL120, weekdays 0200-0800 UTC
+T0398/26: GPS interference testing N25°10'E121°30', 27 MAR 0100-0300 UTC, radius 50 NM
+T0396/26: AIP amendment cycle AIRAC 04/2026 effective 23 APR 2026
+T0394/26: Obstacle light Taipei 101 (1670 ft AMSL) medium intensity strobe replacement in progress, high intensity lights operational
+T0392/26: Unmanned aircraft activity within 2 NM of N23°30'E120°25', SFC-400 ft AGL, daily SR-SS
+T0390/26: RCSS (Songshan) special VFR procedures suspended during Taipei FIR military exercises
+
+--- Hong Kong FIR (VHHK) ---
+A0312/26: TWY E between TWY A3 and TWY B CLSD due to resurfacing WIP 25 MAR – 02 APR
+A0310/26: RWY 07R/25L ILS GP reduced coverage, CAT I minima apply
+A0309/26: Obstacle light Ting Kau Bridge (195 ft) U/S
+A0308/26: Apron Stand W61-W65 CLSD for construction
+A0307/26: VHHH noise abatement procedures RWY 25L revised – see AIP SUP 03/26
+A0306/26: VOR/DME TD (Tathong) scheduled maintenance 28 MAR 0400-0800 UTC
+A0305/26: Helicopter route HR3 (Castle Peak to Sha Tin) suspended for drone survey 27 MAR 0200-0600 UTC
+A0304/26: NDB NR (North) permanently withdrawn
+A0303/26: Laser display Victoria Harbour nightly 2000-2015 LT, maximum altitude 800 ft AGL
+A0302/26: Danger area HKD-7 (Soko Islands) activated SFC-5000 ft 27 MAR 0100-0500 UTC – demolition exercise
+A0301/26: Obstacle light ICC Tower (1588 ft AMSL) one beacon U/S, remaining operational
+A0300/26: TWY J1 rumble strip installed – no speed restriction change
+A0299/26: ATIS broadcast interval changed to every 30 min during 0000-0400 UTC
+
+--- VHHH (Hong Kong International – Arrival) ---
+A0298/26: Apron remote stands R1-R4 bus transfer only – expect extended taxi for wide-body
+A0297/26: Fuel hydrant pressure reduced Pier 4 gates 40-48, bowser backup available on request
+A0296/26: Airport authority mandates GPU usage within 5 min of block-on
+A0295/26: Bird hazard advisory – increased Black Kite activity March-May, vicinity RWY 07R/25L, 0800-1600 LT
+A0294/26: Ground radar (A-SMGCS) degraded coverage TWY N – follow-me vehicle may be assigned in low visibility
+
+--- RCTP (Taoyuan – Alternate) ---
+T0406/26: RWY 05R/23L CLSD for maintenance 27-28 MAR
+T0405/26: ILS RWY 05L serviceable, CAT IIIA available
+T0403/26: TWY S5 CLSD due to WIP
+T0401/26: Apron Bay B5-B8 restricted to A321 and below
+
+--- ZSHC (Hangzhou Xiaoshan) ---
+C0834/26: Temporary restricted airspace within 30 NM of ZSHC, SFC-FL200, 27 MAR 0400-1000 UTC
+C0832/26: RWY 07/25 CLSD for rubber removal
+
+--- ZSSS (Shanghai Hongqiao) ---
+C0801/26: TWY G CLSD between TWY A and TWY B
+C0799/26: ILS RWY 36L GP maintenance 28 MAR 0200-0600 UTC
+C0797/26: Unmanned aircraft operations within 5 NM of N31°12'E121°20', SFC-300 ft AGL
+
+--- RPLL (Manila / Ninoy Aquino) ---
+P0456/26: RWY 06/24 CLSD for rehabilitation 15 MAR – 30 APR 2026
+P0454/26: TWY A CLSD due to WIP
+P0452/26: VOR/DME MIA (Manila) U/S 26-28 MAR
+
+--- VVTS (Ho Chi Minh / Tan Son Nhat) ---
+V0221/26: RWY 07L/25R lighting upgrade in progress, night operations RWY 07R/25L only
+V0219/26: Crane activity 2.3 NM south of aerodrome, max height 320 ft AMSL
+V0217/26: NDB SGN permanently decommissioned
+
+--- VVNB (Hanoi / Noi Bai) ---
+V0178/26: RWY 11L/29R CLSD for expansion works
+V0176/26: RNAV (GNSS) RWY 29L procedure amended – new waypoint LUMRA added
+
+--- WMKK (Kuala Lumpur International) ---
+M0294/26: RWY 14R/32L ILS GP U/S 25-29 MAR, NPA only
+M0292/26: TWY B5 CLSD for rehabilitation works
+
+--- WIII (Jakarta / Soekarno-Hatta) ---
+I0189/26: RWY 07R/25L edge lighting intensity reduced
+I0187/26: Apron Terminal 3 stands 501-505 CLSD for construction
+
+========================
+END OF NOTAM PACKAGE
+Total NOTAMs in package: 97
+========================

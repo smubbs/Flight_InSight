@@ -1,0 +1,39 @@
+{
+  "flight_efficiency_summary": {
+    "flight_number": "CX739",
+    "aircraft": "Airbus A330-300",
+    "route": "VHHH-WSSS",
+    "period_days": 120,
+    "summary": {
+      "average_block_time_hours": 3.75,
+      "min_block_time_hours": 3.55,
+      "max_block_time_hours": 4.05,
+      "average_fuel_burn_tonnes": 19.1,
+      "min_fuel_burn_tonnes": 17.8,
+      "max_fuel_burn_tonnes": 20.5,
+      "average_payload_tonnes": 47.5,
+      "min_payload_tonnes": 42.0,
+      "max_payload_tonnes": 51.0,
+      "average_efficiency_ratio": 0.39,
+      "best_efficiency_day": 34,
+      "worst_efficiency_day": 98
+    },
+    "fir_shortcuts": [
+      {
+        "fir": "Hong Kong FIR (VHHK)",
+        "shortcut_type": "Direct routing to South China Sea entry points when traffic permits",
+        "impact": "Saves ~0.03 hr, ~0.2 t fuel"
+      },
+      {
+        "fir": "Ho Chi Minh FIR (VVHM)",
+        "shortcut_type": "Direct IKELA-HOSBA bypassing published waypoints over South China Sea",
+        "impact": "Saves ~0.05 hr, ~0.3 t fuel"
+      },
+      {
+        "fir": "Singapore FIR (WSJC)",
+        "shortcut_type": "Direct vectors to STAR entry when sequencing allows",
+        "impact": "Saves ~0.02 hr, ~0.1 t fuel"
+      }
+    ]
+  }
+}

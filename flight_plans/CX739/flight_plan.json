@@ -1,0 +1,80 @@
+{
+    "flight":
+    {
+        "operator": "Cathay Pacific",
+        "flight_number": "CX739",
+        "aircraft": "Airbus A330-300",
+        "date": "2026-03-27",
+        "departure":
+        {
+            "airport": "VHHH",
+            "runway": "07R/25L",
+            "etd_utc": "2026-03-27T06:15:00Z"
+        },
+        "arrival":
+        {
+            "airport": "WSSS",
+            "runway": "20C/02C",
+            "eta_utc": "2026-03-27T10:00:00Z"
+        },
+        "block_time": "03:45",
+        "air_time": "03:25"
+    },
+    "route":
+    {
+        "summary": "VHHH → South China Sea → Ho Chi Minh FIR → Singapore FIR → WSSS",
+        "atc_flight_plan": "VHHH DCT ATLON A1 ENVAR M771 IKELA L642 HOSBA M767 PIBAP DCT WSSS",
+        "sid": "ATLON1A",
+        "star": "PIBAP1A",
+        "approach": "ILS RWY 20C"
+    },
+    "etops":
+    {
+        "policy": "Not required (overwater within diversion coverage)",
+        "alternates": [],
+        "destination": "WSSS",
+        "reclear_option": "WMKK"
+    },
+    "weights":
+    {
+        "dow_tonnes": 124.5,
+        "zfw_tonnes": 172.0,
+        "tow_tonnes": 199.0,
+        "law_tonnes": 183.0,
+        "limits_tonnes":
+        {
+            "mtow": 233.0,
+            "mlw": 187.0,
+            "mzwf": 175.0
+        }
+    },
+    "fuel_plan_tonnes":
+    {
+        "trip": 18.5,
+        "contingency": 0.9,
+        "alternate": 2.8,
+        "final_reserve": 2.1,
+        "taxi": 0.7,
+        "extra": 2.0,
+        "block": 27.0
+    },
+    "weather":
+    {
+        "departure":
+        {
+            "metar": "VHHH 270530Z 04010KT 9999 FEW025 SCT040 24/19 Q1014",
+            "taf": "Light northeasterly winds, visibility >10 km, scattered clouds at 4000 ft"
+        },
+        "enroute":
+        {
+            "winds": "Northeasterly 20-35 kt at FL350, tailwind component ~15 kt",
+            "turbulence": "Isolated moderate turbulence over northern South China Sea FL300-380",
+            "icing": "Nil significant"
+        },
+        "arrival":
+        {
+            "metar": "WSSS 270530Z 18008KT 9999 FEW020CB SCT030 BKN100 31/25 Q1008",
+            "taf": "Southerly winds 8-12 kt, afternoon TSRA possible, visibility reducing to 4000m in showers"
+        }
+    }
+}

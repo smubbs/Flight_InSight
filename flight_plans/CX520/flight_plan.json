@@ -1,0 +1,82 @@
+{
+    "flight":
+    {
+        "operator": "Cathay Pacific",
+        "flight_number": "CX520",
+        "aircraft": "Airbus A330-300",
+        "date": "2026-03-27",
+        "departure":
+        {
+            "airport": "RJAA",
+            "runway": "16R/34L",
+            "etd_utc": "2026-03-27T04:30:00Z",
+            "etd_local": "2026-03-27T13:30+09:00"
+        },
+        "arrival":
+        {
+            "airport": "VHHH",
+            "runway": "07R/25L",
+            "eta_utc": "2026-03-27T08:55:00Z",
+            "eta_local": "2026-03-27T16:55+08:00"
+        },
+        "block_time": "04:25",
+        "air_time": "04:05"
+    },
+    "route":
+    {
+        "summary": "RJAA → Fukuoka FIR → Taipei FIR → Hong Kong FIR → VHHH",
+        "atc_flight_plan": "RJAA DCT PIGOK Y81 SHARK Y811 SADLI G581 LAMEN A1 SIKOU B576 ABBEY DCT VHHH",
+        "sid": "PIGOK2",
+        "star": "ABBEY1A",
+        "approach": "ILS RWY 07R"
+    },
+    "etops":
+    {
+        "policy": "Not required (overwater within diversion coverage)",
+        "alternates": [],
+        "destination": "VHHH",
+        "reclear_option": "RCTP"
+    },
+    "weights":
+    {
+        "dow_tonnes": 124.5,
+        "zfw_tonnes": 170.0,
+        "tow_tonnes": 196.5,
+        "law_tonnes": 182.0,
+        "limits_tonnes":
+        {
+            "mtow": 233.0,
+            "mlw": 187.0,
+            "mzwf": 175.0
+        }
+    },
+    "fuel_plan_tonnes":
+    {
+        "trip": 19.8,
+        "contingency": 1.0,
+        "alternate": 2.5,
+        "final_reserve": 2.1,
+        "taxi": 0.6,
+        "extra": 0.5,
+        "block": 26.5
+    },
+    "weather":
+    {
+        "departure":
+        {
+            "metar": "RJAA 270400Z 33008KT 9999 FEW035 SCT060 12/03 Q1018 NOSIG",
+            "taf": "NNW winds 8-12 kt, visibility >10 km, scattered clouds at 6000 ft"
+        },
+        "enroute":
+        {
+            "winds": "Westerly 40-60 kt at FL370, tailwind component ~30 kt southbound",
+            "turbulence": "Light to moderate CAT near subtropical jet FL340-FL400 over East China Sea",
+            "icing": "Nil significant"
+        },
+        "arrival":
+        {
+            "metar": "VHHH 270400Z 06012KT 9999 FEW030 SCT050 25/18 Q1013",
+            "taf": "Easterly winds 10-15 kt, visibility >10 km, FEW030 SCT050, no significant weather"
+        }
+    }
+}

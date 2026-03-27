@@ -1,0 +1,39 @@
+{
+  "flight_efficiency_summary": {
+    "flight_number": "CX520",
+    "aircraft": "Airbus A330-300",
+    "route": "RJAA-VHHH",
+    "period_days": 120,
+    "summary": {
+      "average_block_time_hours": 4.42,
+      "min_block_time_hours": 4.15,
+      "max_block_time_hours": 4.72,
+      "average_fuel_burn_tonnes": 20.3,
+      "min_fuel_burn_tonnes": 18.9,
+      "max_fuel_burn_tonnes": 22.1,
+      "average_payload_tonnes": 45.5,
+      "min_payload_tonnes": 40.0,
+      "max_payload_tonnes": 50.0,
+      "average_efficiency_ratio": 0.37,
+      "best_efficiency_day": 22,
+      "worst_efficiency_day": 71
+    },
+    "fir_shortcuts": [
+      {
+        "fir": "Fukuoka FIR (RJJJ)",
+        "shortcut_type": "Direct SHARK when Kanto sector traffic permits",
+        "impact": "Saves ~0.04 hr, ~0.2 t fuel"
+      },
+      {
+        "fir": "Taipei FIR (RCAA)",
+        "shortcut_type": "Direct LAMEN-SIKOU bypassing published waypoints over East China Sea",
+        "impact": "Saves ~0.06 hr, ~0.3 t fuel"
+      },
+      {
+        "fir": "Hong Kong FIR (VHHK)",
+        "shortcut_type": "Direct vectors to STAR entry when sequencing allows",
+        "impact": "Saves ~0.03 hr, ~0.15 t fuel"
+      }
+    ]
+  }
+}

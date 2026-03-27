@@ -1,0 +1,27 @@
+{
+  "aircraft_status": {
+    "aircraft": "Airbus A330-300",
+    "flight_number": "CX739",
+    "date_utc": "2026-03-27T06:15:00Z",
+    "systems": [
+      {
+        "ata_code": "21-61-00",
+        "system": "Pack 2 Flow Control Valve",
+        "status": "ADD",
+        "operations_procedure": "Operate per MEL relief; Pack 2 flow limited to LO setting. Monitor cabin altitude and temperature."
+      },
+      {
+        "ata_code": "34-11-02",
+        "system": "WXR Tilt Servo No. 2",
+        "status": "PADD",
+        "operations_procedure": "Operate per MEL relief; weather radar manual tilt only on Captain side. Use FO radar as primary."
+      },
+      {
+        "ata_code": "52-00-01",
+        "system": "Aft Cargo Door Seal",
+        "status": "SADD",
+        "operations_procedure": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+========================
+NOTAM PACKAGE – CX739
+Route: VHHH → WSSS
+Date: 27 MAR 2026
+========================
+
+--- VHHH (Hong Kong International) ---
+A0312/26: TWY E between TWY A3 and TWY B CLOSED due to resurfacing WIP 25 MAR – 02 APR
+A0309/26: RWY 07R/25L ILS GP reduced coverage, CAT I minima apply
+A0307/26: Apron Stand W61-W65 CLOSED for construction
+A0305/26: AIP SUP 03/26 effective – revised noise abatement procedures RWY 25L departures
+
+--- WSSS (Singapore Changi) ---
+A0487/26: RWY 02L/20R CLOSED for periodic maintenance 27 MAR 0200-1000 UTC
+A0485/26: TWY WA3 CLOSED between TWY WB and TWY WC due to WIP
+A0483/26: ILS RWY 20C LOC coverage reduced below 15 NM – monitor DME for positioning
+A0481/26: Crane activity vicinity RWY 02C/20C approach, max height 280 ft AMSL, 2.1 NM NE threshold 20C
+A0479/26: Bird hazard advisory – increased migratory bird activity in vicinity
+
+--- WMKK (Kuala Lumpur International – Alternate) ---
+A0294/26: RWY 14R/32L ILS GP U/S 25-29 MAR, NPA only
+A0291/26: TWY B5 CLOSED for rehabilitation works
+A0289/26: Apron Bay C12-C15 restricted to narrow-body aircraft only
+
+--- Ho Chi Minh FIR (VVHM) ---
+A0156/26: ATS route M771 segment ENVAR-IKELA FL280-FL320 restricted 0600-1200 UTC daily for military exercise
+A0153/26: GPS RAIM anomaly advisory – intermittent RAIM availability south of N10 E108, 27 MAR 0400-0800 UTC
+
+--- Singapore FIR (WSJC) ---
+A0201/26: Temporary restricted area R541 activated FL250-UNL within 30 NM of N01E104, 27 MAR 0800-1200 UTC

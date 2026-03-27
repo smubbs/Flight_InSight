@@ -1,0 +1,15 @@
+{
+  "aircraft_status": {
+    "aircraft": "Airbus A330-300",
+    "flight_number": "CX520",
+    "date_utc": "2026-03-27T04:30:00Z",
+    "systems": [
+      {
+        "ata_code": "26-15-01",
+        "system": "Alternate Fire Extinguisher Bottle Pressure Indicator",
+        "status": "ADD",
+        "operations_procedure": null
+      }
+    ]
+  }
+}
